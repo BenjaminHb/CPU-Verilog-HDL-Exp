@@ -1,0 +1,310 @@
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips.v failed with 1 errors.
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of dm.v failed with 1 errors.
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of dm.v failed with 1 errors.
+# Compile of dm.v failed with 1 errors.
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of dm.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of dm.v failed with 1 errors.
+# Compile of dm.v failed with 1 errors.
+# Compile of dm.v failed with 1 errors.
+cls
+# 
+clear
+# invalid command name "clear"
+cls
+# 
+csa;c';ds;fdsgfds
+# invalid command name "csa"
+kdshdhdsig
+# invalid command name "kdshdhdsig"
+run
+# No Design Loaded!
+load
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of dm.v failed with 1 errors.
+# Compile of mips.v failed with 1 errors.
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v failed with 1 errors.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 3 failed with 3 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v failed with 1 errors.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 3 failed with 3 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v failed with 1 errors.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 3 failed with 3 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v failed with 1 errors.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 3 failed with 3 errors. 
+# Compile of alu.v was successful.
+# Compile of dm.v failed with 1 errors.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 7 compiles, 1 failed with 1 error. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v failed with 1 errors.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of dm.v was successful.
+# Compile of alu.v failed with 1 errors.
+# Compile of alu.v was successful.
+# Compile of alu.v was successful.
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 1 failed with 1 error. 
+vsim -voptargs=+acc work.alu
+# vsim -voptargs=+acc work.alu 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.alu(fast)
+add wave -position insertpoint sim:/alu/*
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit 
+quit -sim
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 1 failed with 1 error. 

@@ -1,0 +1,191 @@
+m255
+K3
+13
+cModel Technology
+dG:\
+T_opt
+VUkg5D<ZhI0oSo<5WSLCNi2
+Z0 04 7 4 work Mips_tb fast 0
+=1-7cc7095c0737-58d4bf7d-1e5-14c4
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z1 OE;O;10.1a;51
+T_opt1
+V_O56Hl`ifOn7:1<gJBe9X1
+Z2 04 7 4 work Mips_tb fast 0
+=1-7cc7095c0737-58d4a5d5-3bd-2a34
+o-quiet -auto_acc_if_foreign -work work
+n@_opt1
+R1
+dG:\
+vAlu
+IDX@6=4lhflFE7j4O?CZV@0
+V?`flSzUJLS?40z9VEJ9kI0
+Z3 dC:\Users\aaaa\Desktop\CPU Verilog HDL Exp\SingleCPU
+Z4 w1416292470
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Alu.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Alu.v
+L0 3
+Z5 OE;L;10.1a;51
+r1
+31
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@alu
+!s100 QChUZ11UGHlDa5IUE`R0H2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Alu.v|
+!s108 1490337652.825000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Alu.v|
+!i10b 1
+!s85 0
+vCtrl
+I9;;QmDX<H:Y29VQ5K`4<F1
+V0k;EVgl^gh;OlEz]k7Y651
+R3
+R4
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Ctrl.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Ctrl.v
+L0 3
+R5
+r1
+31
+R6
+n@ctrl
+!s100 D1Vhi[Ieid2JEmb6U<G;52
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Ctrl.v|
+!s108 1490337653.122000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Ctrl.v|
+!i10b 1
+!s85 0
+vDMem
+I=n7V4>BZYlK;EI>kLXnVT0
+V^mZ^EWooLeaQ==S>2P?g;0
+R3
+w1417157872
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/DMem.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/DMem.v
+L0 2
+R5
+r1
+31
+R6
+n@d@mem
+!s100 c0ae[eJTM>H^[KOXg5S6e0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/DMem.v|
+!s108 1490337653.403000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/DMem.v|
+!i10b 1
+!s85 0
+vExtender
+IBi3BL6zfNjPT@CmEj`JXj2
+VP>HclNBOS>_zV`BdjgnLn1
+R3
+w1417248256
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Extender.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Extender.v
+L0 2
+R5
+r1
+31
+R6
+n@extender
+!s100 KN2^aeJ_J?a6QLa:DDQzP0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Extender.v|
+!s108 1490337653.692000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Extender.v|
+!i10b 1
+!s85 0
+vGPR
+In;:5F]iKEVahohgn11mLZ2
+VXafm@[6TSlmzMRG@Sa]DE2
+R3
+R4
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/GPR.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/GPR.v
+L0 2
+R5
+r1
+31
+R6
+n@g@p@r
+!s100 @OFN:80bO6h>8Bd<mS@g73
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/GPR.v|
+!s108 1490337653.980000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/GPR.v|
+!i10b 1
+!s85 0
+vIM
+IfDSK6n`Y1L^2I_eT32X5z0
+VB76>nPlO4@Zjh[ebZ8[MY0
+R3
+w1490337644
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/IM.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/IM.v
+L0 3
+R5
+r1
+31
+R6
+n@i@m
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/IM.v|
+!s100 mYUAc6T]NThUgZMfUd_Y71
+!s108 1490337654.268000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/IM.v|
+!i10b 1
+!s85 0
+vMips
+IXXN]G?XU]M2Co7?j:YJY30
+V;U]g=61l3n1fSQFLIPZn<1
+R3
+w1490334856
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Mips.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Mips.v
+L0 2
+R5
+r1
+31
+R6
+n@mips
+!s100 @AI1lRmD6Fb96IRmeP7k?3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Mips.v|
+!s108 1490337654.562000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Mips.v|
+!i10b 1
+!s85 0
+vMips_tb
+I4TOVi^h2GO=N=^lea`VlB2
+VdThPdFVIogFR=Z2bRH8R^3
+R3
+w1458229948
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/mips_tb.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/mips_tb.v
+L0 1
+R5
+r1
+31
+R6
+n@mips_tb
+!s100 nXPMBJjehgioI:6TFQFeL2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/mips_tb.v|
+!s108 1490337654.960000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/mips_tb.v|
+!i10b 1
+!s85 0
+vPcUnit
+IQ]56gL?Z2^g5E47E=V60k0
+V]a]CEDh@j8]CVKED8oMZk1
+R3
+R4
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/PcUnit.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/PcUnit.v
+L0 2
+R5
+r1
+31
+R6
+n@pc@unit
+!s100 nEN_`73c6Rh`fB@]TTe<;1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/PcUnit.v|
+!i10b 1
+!s85 0
+!s108 1490337655.248000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/PcUnit.v|

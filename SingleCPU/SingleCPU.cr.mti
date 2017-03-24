@@ -1,0 +1,127 @@
+G:/SingleCPU/DMem.v {1 {vlog -work work -vopt G:/SingleCPU/DMem.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module DMem
+
+Top level modules:
+	DMem
+
+} {} {}} G:/SingleCPU/Ctrl.v {1 {vlog -work work -vopt G:/SingleCPU/Ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Ctrl
+
+Top level modules:
+	Ctrl
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/GPR.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/GPR.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPR
+
+Top level modules:
+	GPR
+
+} {} {}} G:/SingleCPU/IM.v {1 {vlog -work work -vopt G:/SingleCPU/IM.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} G:/SingleCPU/Extender.v {1 {vlog -work work -vopt G:/SingleCPU/Extender.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Extender
+
+Top level modules:
+	Extender
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/DMem.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/DMem.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module DMem
+
+Top level modules:
+	DMem
+
+} {} {}} G:/SingleCPU/GPR.v {1 {vlog -work work -vopt G:/SingleCPU/GPR.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module GPR
+
+Top level modules:
+	GPR
+
+} {} {}} G:/SingleCPU/Mips.v {1 {vlog -work work -vopt G:/SingleCPU/Mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Mips
+
+Top level modules:
+	Mips
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Ctrl.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Ctrl.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Ctrl
+
+Top level modules:
+	Ctrl
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/IM.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/IM.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/mips_tb.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/mips_tb.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Mips_tb
+
+Top level modules:
+	Mips_tb
+
+} {} {}} G:/SingleCPU/PcUnit.v {1 {vlog -work work -vopt G:/SingleCPU/PcUnit.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PcUnit
+
+Top level modules:
+	PcUnit
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Extender.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Extender.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Extender
+
+Top level modules:
+	Extender
+
+} {} {}} G:/SingleCPU/mips_tb.v {1 {vlog -work work -vopt G:/SingleCPU/mips_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Mips_tb
+
+Top level modules:
+	Mips_tb
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Mips.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Mips
+
+Top level modules:
+	Mips
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Alu.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/Alu.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Alu
+
+Top level modules:
+	Alu
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/PcUnit.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/SingleCPU/PcUnit.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PcUnit
+
+Top level modules:
+	PcUnit
+
+} {} {}} G:/SingleCPU/Alu.v {1 {vlog -work work -vopt G:/SingleCPU/Alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Alu
+
+Top level modules:
+	Alu
+
+} {} {}}

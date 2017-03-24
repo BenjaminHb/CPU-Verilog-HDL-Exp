@@ -1,0 +1,269 @@
+m255
+K3
+13
+cModel Technology
+dE:\signalcpu7
+T_opt
+VCgoiA^dLQdb4CV4a`4Meo0
+04 3 4 work alu fast 0
+=1-7cc7095c0737-58d50c68-b3-2df8
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OE;O;10.1a;51
+valu
+!s100 :ifBhJbS^zG>PJDM4JK9<2
+IGY9MI1;h4[XzjZQ4K2IYZ3
+VBn`ji@JZJ?f27Qk1NoHCM0
+Z0 dC:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1
+w1490355271
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v
+L0 2
+Z1 OE;L;10.1a;51
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v|
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s108 1490357322.215000
+!s107 ctrl_encode_def.v|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v|
+!i10b 1
+!s85 0
+vCtrl
+!s100 z3JB:2WLHF042jn;<J2W92
+IKo5;7Y>Yd^G^6ng<Gc<:V1
+V0k;EVgl^gh;OlEz]k7Y651
+Z3 dC:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1
+w1416292470
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Ctrl.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Ctrl.v
+L0 3
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Ctrl.v|
+R2
+n@ctrl
+!s108 1490357321.819000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Ctrl.v|
+!i10b 1
+!s85 0
+vdm_4k
+!s100 SE0LX92jcHVc;^Obb1^I:3
+I?fnGVO;[DCK45:CXBHG6z0
+VEBJC9QTIimAb0W]Z^1m9A2
+R3
+w1490354130
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v
+L0 1
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v|
+R2
+!s108 1490357322.473000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v|
+!i10b 1
+!s85 0
+vEXT
+IJ5IdJ><oK23_XmTi9E]AV1
+VkP?W4T^9d29_a?HHBFR]61
+R3
+w1490357309
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v
+L0 2
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v|
+R2
+n@e@x@t
+!s100 6lBPA6lA2?6h8]W9P<0032
+!s108 1490357322.738000
+!s107 ctrl_encode_def.v|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v|
+!i10b 1
+!s85 0
+vflopr
+!s100 WZN:=a?Y>MWBYP2J:3^4l3
+I>0NQgbHTi[]S:QXALU:1b1
+V]P_f@>=6G=?GDdBCzB=NS3
+R3
+Z4 w1458212080
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v
+L0 1
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v|
+R2
+!s108 1490357320.526000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v|
+!i10b 1
+!s85 0
+vim_4k
+!s100 <maDgG:;7AdnS6zKJd;>:2
+IeF=XW]gzbbWknJ8MD]OoB2
+V7NIR5eTHWjMZ=;2IILG`M3
+R3
+w1490353646
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v
+L0 1
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v|
+R2
+!s108 1490357322.988000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v|
+!i10b 1
+!s85 0
+vIR
+!s100 0a4DE>4XA[HF8WVG?LjE50
+I7k3X8BWVZQbiM_?Uh2Cjk1
+VdoiokPZdC@Pj=oAcaieao3
+R3
+R4
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IR.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IR.v
+L0 1
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IR.v|
+R2
+n@i@r
+!s108 1490357323.256000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IR.v|
+!i10b 1
+!s85 0
+vmips_tb
+!s100 @eT1@ImUj^O:XfiG^b[>S3
+I2]QB5XSmIBooEG61fn5gN2
+VHfL@J;=TiSmbe>@j83EoJ0
+R3
+Z5 w1458212082
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v
+L0 1
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v|
+R2
+!s108 1490357320.271000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v|
+!i10b 1
+!s85 0
+vmux16
+!s100 9;lQMJzA@TLTS][0o?EJe3
+IL^O?KamC`RH]JBoK?RLRU3
+V`6=HBldE>cXC;m]K0;QI>0
+R3
+R5
+Z6 8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v
+Z7 FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v
+L0 71
+R1
+r1
+31
+Z8 !s108 1490357320.792000
+Z9 !s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v|
+R2
+!i10b 1
+!s85 0
+vmux2
+!s100 =P8V:n;^j?NRW4JS3U>QP1
+I0nj48GV?i2g=<4SD:IjJo0
+VT8RWJBjAIeM]>7U=5kBkT1
+R3
+R5
+R6
+R7
+L0 2
+R1
+r1
+31
+R8
+R9
+R10
+R2
+!i10b 1
+!s85 0
+vmux4
+!s100 B<hihK2`8[c8DW6m_mb]o3
+IoGT=omolBQNHeaf8d4KL11
+V@m74j;^3XFJ7>OzQXh6V`0
+R3
+R5
+R6
+R7
+L0 15
+R1
+r1
+31
+R8
+R9
+R10
+R2
+!i10b 1
+!s85 0
+vmux8
+!s100 e_Do`_Y^8e47;DU0<A5dP1
+IRF_V=`U`cB;7DBU3BJZ=<2
+VOh>X<_n?620Z_^H7^I9KH2
+R3
+R5
+R6
+R7
+L0 40
+R1
+r1
+31
+R8
+R9
+R10
+R2
+!i10b 1
+!s85 0
+vPC
+!s100 mzKh[dfHh`j6^_2;njQ2N1
+I>hGhhQ=ka@LHzMFLBjOQJ1
+VH:WWEmEz7L`;6@3TmMz>W3
+R3
+R5
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v
+L0 1
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v|
+R2
+n@p@c
+!s108 1490357323.511000
+!s107 C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v|
+!i10b 1
+!s85 0
+vRF
+!s100 gm8l7_Z6Zk<VAYZmaoQ`_2
+I[_DXNPE47XgKTo=IiH`_W0
+V>m8H_>Z_GWe1OmYLG6niP1
+R3
+w1458212084
+8C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/RF.v
+FC:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/RF.v
+L0 2
+R1
+r1
+31
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/RF.v|
+R2
+n@r@f
+!i10b 1
+!s85 0
+!s108 1490357323.772000
+!s107 global_def.v|C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/RF.v|
