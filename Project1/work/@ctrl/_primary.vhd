@@ -10,8 +10,8 @@ entity Ctrl is
         MemW            : out    vl_logic;
         RegW            : out    vl_logic;
         Alusrc          : out    vl_logic;
-        ExtOp           : out    vl_logic;
-        Aluctrl         : out    vl_logic_vector(1 downto 0);
+        ExtOp           : out    vl_logic_vector(1 downto 0);
+        Aluctrl         : out    vl_logic_vector(2 downto 0);
         OpCode          : in     vl_logic_vector(5 downto 0);
         funct           : in     vl_logic_vector(5 downto 0)
     );

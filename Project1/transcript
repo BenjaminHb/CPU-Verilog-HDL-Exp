@@ -7,268 +7,6 @@
 # Compile of instruction_def.v was successful.
 # Compile of Ctrl.v was successful.
 # Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips.v failed with 1 errors.
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of dm.v failed with 1 errors.
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of dm.v failed with 1 errors.
-# Compile of dm.v failed with 1 errors.
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of dm.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of dm.v failed with 1 errors.
-# Compile of dm.v failed with 1 errors.
-# Compile of dm.v failed with 1 errors.
-cls
-# 
-clear
-# invalid command name "clear"
-cls
-# 
-csa;c';ds;fdsgfds
-# invalid command name "csa"
-kdshdhdsig
-# invalid command name "kdshdhdsig"
-run
-# No Design Loaded!
-load
-# wrong # args: should be "load file ?pkg? ?interp?"
-# Compile of dm.v failed with 1 errors.
-# Compile of mips.v failed with 1 errors.
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v failed with 1 errors.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 3 failed with 3 errors. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v failed with 1 errors.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 3 failed with 3 errors. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v failed with 1 errors.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 3 failed with 3 errors. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v failed with 1 errors.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 3 failed with 3 errors. 
-# Compile of alu.v was successful.
-# Compile of dm.v failed with 1 errors.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 7 compiles, 1 failed with 1 error. 
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v failed with 1 errors.
-# Compile of dm.v was successful.
-# Compile of EXT.v was successful.
-# Compile of im.v was successful.
-# Compile of IR.v was successful.
-# Compile of PC.v was successful.
-# Compile of RF.v was successful.
-# 15 compiles, 2 failed with 2 errors. 
-# Compile of dm.v was successful.
-# Compile of alu.v failed with 1 errors.
-# Compile of alu.v was successful.
-# Compile of alu.v was successful.
-# Compile of mips.v failed with 1 errors.
-# Compile of mips_tb.v was successful.
-# Compile of flopr.v was successful.
-# Compile of mux.v was successful.
-# Compile of ctrl_encode_def.v was successful.
-# Compile of global_def.v was successful.
-# Compile of instruction_def.v was successful.
-# Compile of Ctrl.v was successful.
-# Compile of alu.v was successful.
 # Compile of dm.v was successful.
 # Compile of EXT.v was successful.
 # Compile of im.v was successful.
@@ -276,12 +14,13 @@ load
 # Compile of PC.v was successful.
 # Compile of RF.v was successful.
 # 15 compiles, 1 failed with 1 error. 
-vsim -voptargs=+acc work.alu
-# vsim -voptargs=+acc work.alu 
+# Compile of RF.v was successful.
+vsim -voptargs=+acc work.RF
+# vsim -voptargs=+acc work.RF 
 # ** Note: (vsim-3812) Design is being optimized...
 # 
-# Loading work.alu(fast)
-add wave -position insertpoint sim:/alu/*
+# Loading work.RF(fast)
+add wave -position insertpoint sim:/RF/*
 run
 run
 run
@@ -290,7 +29,22 @@ run
 run
 run
 run
-# Break key hit 
+run
+run
+run
+run
+run
+run
+quit -sim
+vsim -voptargs=+acc work.RF
+# vsim -voptargs=+acc work.RF 
+# Loading work.RF(fast)
+add wave -position insertpoint sim:/RF/*
+run
+quit -sim
+vsim -voptargs=+acc work.RF
+# vsim -voptargs=+acc work.RF 
+# Loading work.RF(fast)
 quit -sim
 # Compile of mips.v failed with 1 errors.
 # Compile of mips_tb.v was successful.
@@ -308,3 +62,639 @@ quit -sim
 # Compile of PC.v was successful.
 # Compile of RF.v was successful.
 # 15 compiles, 1 failed with 1 error. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v failed with 1 errors.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 2 failed with 2 errors. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 1 failed with 1 error. 
+# Compile of mips.v failed with 1 errors.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 1 failed with 1 error. 
+# Compile of mips.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -novopt work.mips_tb
+# vsim -novopt work.mips_tb 
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips_tb
+# Loading work.mips_tb
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips
+# Loading work.mips
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.PC
+# Loading work.PC
+# ** Error: (vsim-3033) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): Instantiation of 'im' failed. The design unit was not found.
+# 
+#         Region: /mips_tb/U_MIPS
+#         Searched libraries:
+#             C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.RF
+# Loading work.RF
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.Ctrl
+# Loading work.Ctrl
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.EXT
+# Loading work.EXT
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.alu
+# Loading work.alu
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.dm_4k
+# Loading work.dm_4k
+# Error loading design
+# Compile of mips.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -novopt work.mips_tb
+# vsim -novopt work.mips_tb 
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips_tb
+# Loading work.mips_tb
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips
+# Loading work.mips
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.PC
+# Loading work.PC
+# ** Error: (vsim-3033) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): Instantiation of 'im' failed. The design unit was not found.
+# 
+#         Region: /mips_tb/U_MIPS
+#         Searched libraries:
+#             C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.RF
+# Loading work.RF
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.Ctrl
+# Loading work.Ctrl
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.EXT
+# Loading work.EXT
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.alu
+# Loading work.alu
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.dm_4k
+# Loading work.dm_4k
+# Error loading design
+vsim work.mips_tb
+# vsim work.mips_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): Module 'im' is not defined.
+# Optimization failed
+# Error loading design
+vsim work.mips_tb
+# vsim work.mips_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): Module 'im' is not defined.
+# Optimization failed
+# Error loading design
+# Compile of mips.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -novopt work.mips_tb
+# vsim -novopt work.mips_tb 
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips_tb
+# Loading work.mips_tb
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips
+# Loading work.mips
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.PC
+# Loading work.PC
+# ** Error: (vsim-3033) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): Instantiation of 'im' failed. The design unit was not found.
+# 
+#         Region: /mips_tb/U_MIPS
+#         Searched libraries:
+#             C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.RF
+# Loading work.RF
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.Ctrl
+# Loading work.Ctrl
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.EXT
+# Loading work.EXT
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.alu
+# Loading work.alu
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.dm_4k
+# Loading work.dm_4k
+# Error loading design
+# Compile of mips.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -novopt work.mips_tb
+# vsim -novopt work.mips_tb 
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips_tb
+# Loading work.mips_tb
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips
+# Loading work.mips
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.PC
+# Loading work.PC
+# ** Error: (vsim-3033) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): Instantiation of 'im' failed. The design unit was not found.
+# 
+#         Region: /mips_tb/U_mips
+#         Searched libraries:
+#             C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.RF
+# Loading work.RF
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.Ctrl
+# Loading work.Ctrl
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.EXT
+# Loading work.EXT
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.alu
+# Loading work.alu
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.dm_4k
+# Loading work.dm_4k
+# Error loading design
+# Compile of mips.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -novopt work.mips_tb
+# vsim -novopt work.mips_tb 
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips_tb
+# Loading work.mips_tb
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips
+# Loading work.mips
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.PC
+# Loading work.PC
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.im_4k
+# Loading work.im_4k
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.RF
+# Loading work.RF
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.Ctrl
+# Loading work.Ctrl
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.EXT
+# Loading work.EXT
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.alu
+# Loading work.alu
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.dm_4k
+# Loading work.dm_4k
+# ** Warning: (vsim-3015) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): [PCDPC] - Port size (10 or 10) does not match connection size (12) for port 'addr'. The port definition is at: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v(1).
+# 
+#         Region: /mips_tb/U_mips/U_im
+# ** Warning: (vsim-3015) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(79): [PCDPC] - Port size (10 or 10) does not match connection size (12) for port 'addr'. The port definition is at: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v(1).
+# 
+#         Region: /mips_tb/U_mips/U_dm
+quit -sim
+vsim -novopt work.mips_tb
+# vsim -novopt work.mips_tb 
+# Loading work.mips_tb
+# Loading work.mips
+# Loading work.PC
+# Loading work.im_4k
+# Loading work.RF
+# Loading work.Ctrl
+# Loading work.EXT
+# Loading work.alu
+# Loading work.dm_4k
+# ** Warning: (vsim-3015) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): [PCDPC] - Port size (10 or 10) does not match connection size (12) for port 'addr'. The port definition is at: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v(1).
+# 
+#         Region: /mips_tb/U_mips/U_im
+# ** Warning: (vsim-3015) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(79): [PCDPC] - Port size (10 or 10) does not match connection size (12) for port 'addr'. The port definition is at: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v(1).
+# 
+#         Region: /mips_tb/U_mips/U_dm
+quit -sim
+vsim -novopt work.mips_tb
+# vsim -novopt work.mips_tb 
+# Loading work.mips_tb
+# Loading work.mips
+# Loading work.PC
+# Loading work.im_4k
+# Loading work.RF
+# Loading work.Ctrl
+# Loading work.EXT
+# Loading work.alu
+# Loading work.dm_4k
+# ** Warning: (vsim-3015) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): [PCDPC] - Port size (10 or 10) does not match connection size (12) for port 'addr'. The port definition is at: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v(1).
+# 
+#         Region: /mips_tb/U_mips/U_im
+# ** Warning: (vsim-3015) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(79): [PCDPC] - Port size (10 or 10) does not match connection size (12) for port 'addr'. The port definition is at: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v(1).
+# 
+#         Region: /mips_tb/U_mips/U_dm
+add wave -position insertpoint sim:/mips_tb/*
+add wave -position insertpoint sim:/mips_tb/U_mips/*
+add wave -position insertpoint sim:/mips_tb/U_mips/*
+run
+# R[00-07]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx
+# PC = 0xxxxxxxxx, IR = 0xxxxxxxxx
+# PC = 0x00003000, IR = 0x3c012000
+# R[00-07]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  01]=00000000
+# addr=     000
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003004, IR = 0x34273456
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  07]=00000000
+# addr=     xXX
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003008, IR = 0xac030004
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, 00000000, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  03]=00000000
+# addr=     004
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x0000300c, IR = 0x00643023
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, 00000000, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  06]=00000000
+# addr=     000
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003010, IR = 0x00c23023
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  06]=zzzzzzzz
+# addr=     000
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003014, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003018, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x0000301c, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003020, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003024, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003028, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x0000302c, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003030, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003034, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003038, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x0000303c, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003040, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003044, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+quit -sim
+# Compile of mips.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mux.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of global_def.v was successful.
+# Compile of instruction_def.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of alu.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of IR.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# 15 compiles, 0 failed with no errors. 
+vsim -novopt work.mips_tb
+# vsim -novopt work.mips_tb 
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips_tb
+# Loading work.mips_tb
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.mips
+# Loading work.mips
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.PC
+# Loading work.PC
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.im_4k
+# Loading work.im_4k
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.RF
+# Loading work.RF
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.Ctrl
+# Loading work.Ctrl
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.EXT
+# Loading work.EXT
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.alu
+# Loading work.alu
+# Refreshing C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\work.dm_4k
+# Loading work.dm_4k
+# ** Warning: (vsim-3015) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(52): [PCDPC] - Port size (10 or 10) does not match connection size (12) for port 'addr'. The port definition is at: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v(1).
+# 
+#         Region: /mips_tb/U_mips/U_im
+# ** Warning: (vsim-3015) C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(79): [PCDPC] - Port size (10 or 10) does not match connection size (12) for port 'addr'. The port definition is at: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v(1).
+# 
+#         Region: /mips_tb/U_mips/U_dm
+add wave -position insertpoint sim:/mips_tb/U_mips/*
+run
+# R[00-07]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx
+# PC = 0xxxxxxxxx, IR = 0xxxxxxxxx
+# PC = 0x00003000, IR = 0x3c012000
+# R[00-07]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  01]=00000000
+# addr=     000
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003004, IR = 0x34273456
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  07]=00000000
+# addr=     xXX
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003008, IR = 0xac030004
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, 00000000, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  03]=00000000
+# addr=     004
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x0000300c, IR = 0x00643023
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, 00000000, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  06]=00000000
+# addr=     000
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003010, IR = 0x00c23023
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  06]=zzzzzzzz
+# addr=     000
+# din=00000000
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003014, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003018, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x0000301c, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+run
+# PC = 0x00003020, IR = 0xxxxxxxxx
+# R[00-07]=00000000, zzzzzzzz, 00000000, 00000000, 00000000, 00000000, zzzzzzzz, zzzzzzzz
+# R[08-15]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[16-23]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[24-31]=00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000, 00000000
+# R[  xx]=xxxxxxxx
+# addr=     000
+# din=xxxxxxxx
+# Mem[00-07]=xxxxxxxx,xxxxxxxx,xxxxxxxx,xxxxxxxx,00000000,xxxxxxxx,xxxxxxxx,xxxxxxxx
+quit -sim

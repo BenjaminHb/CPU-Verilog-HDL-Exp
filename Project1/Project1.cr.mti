@@ -12,13 +12,6 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	Ctrl
 
-} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module im_4k
-
-Top level modules:
-	im_4k
-
 } {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module mips_tb
@@ -26,18 +19,25 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	mips_tb
 
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_4k
+
+Top level modules:
+	im_4k
+
 } {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/instruction_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/instruction_def.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 
 } {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/ctrl_encode_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/ctrl_encode_def.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 
-} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v}
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module EXT
+-- Compiling module mips
 
 Top level modules:
-	EXT
+	mips
 
 } {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
@@ -46,18 +46,39 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	dm_4k
 
-} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v} {0 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v}
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module mips
-** Error: C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v(17): (vlog-2730) Undefined variable: 'instr'.
+-- Compiling module EXT
 
+Top level modules:
+	EXT
 
-} {4.0 5.0} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v}
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux2
+	mux4
+	mux8
+	mux16
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module alu
 
 Top level modules:
 	alu
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module flopr
+
+Top level modules:
+	flopr
 
 } {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IR.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IR.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
@@ -66,12 +87,12 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	IR
 
-} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v}
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module flopr
+-- Compiling module PC
 
 Top level modules:
-	flopr
+	PC
 
 } {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/global_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/global_def.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012

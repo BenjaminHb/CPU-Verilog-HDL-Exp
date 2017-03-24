@@ -1,4 +1,4 @@
-module dm_4k(addr,din,DMWr,clk,dout);
+module dm_4k(addr, din, DMWr, clk, dout);
 
 	input [11:2]	addr;
 	input [31:0]	din;
