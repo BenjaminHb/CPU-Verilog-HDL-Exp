@@ -5,6 +5,8 @@ module mips( clk, rst );
 
 //PC
 	wire [31:0]	pcOut;		//PC.PC
+	wire [25:0]	jumpAdr;	//PC.jumpAdr
+	wire [31:0]	npc;		//PC.NPC
 
 //IM
 	wire [11:0]	imAdr;		//im.addr
@@ -14,6 +16,7 @@ module mips( clk, rst );
 	wire [4:0]	rfWriteAdr,rfReadAdr1,rfReadAdr2;	//rf.A3 rf.A1 rf.A2
 	wire [31:0]	rfDataIn;							//rf.WD
 	wire [31:0]	rfDataOut1,rfDataOut2;				//rf.RD1 rf.RD2
+	wire		rfReadEn;							//rf.ReadEnable
 
 //EXT
 	wire [15:0]	extDataIn;	//EXT.Imm16
@@ -42,25 +45,68 @@ module mips( clk, rst );
 	wire [31:0]	aluDataOut;	//alu.C
 	wire		zero;		//alu.Zero
 
+//IF_ID
+	wire [31:0]	IFID_outOpCode;
+	wire [31:0]	IFID_outPC;
 
-	assign pcWrite = ((Branch&&zero)==1)?1:0;
+//ID_EX
+	wire [31:0]	IDEX_outPC;
+	wire [31:0]	IDEX_outReadData1;
+	wire [31:0]	IDEX_outReadData2;
+	wire [31:0]	IDEX_outImm32;
+	wire [4:0]	IDEX_outRt;
+	wire [4:0]	IDEX_outRd;
+	wire		IDEX_outALUSrc; 
+	wire [2:0]	IDEX_outALUCtrl;
+	wire		IDEX_outRegDst;
+	wire		IDEX_outJump;
+	wire		IDEX_outBranch;
+	wire		IDEX_outMemWrite;
+	wire		IDEX_outMemRead;
+	wire		IDEX_outMemtoReg;
+	wire		IDEX_outRegWrite;
+
+//EX_MEM
+	wire [31:0]	EXMEM_outALUResult;
+	wire		EXMEM_outALUZero;
+	wire [31:0]	EXMEM_outRtData;
+	wire [4:0]	EXMEM_outRegWriteAdr;
+	wire		EXMEM_outBranch;
+	wire		EXMEM_outMemWrite;
+	wire		EXMEM_outMemRead;
+	wire		EXMEM_outMemtoReg;
+	wire		EXMEM_outRegWrite;
+
+//MEM_WB
+	wire [31:0]	MEMWB_outMemReadData;
+	wire [31:0]	MEMWB_outALUResult;
+	wire [4:0]	MEMWB_outRegWriteAdr;
+	wire		MEMWB_outMemtoReg;
+	wire		MEMWB_outRegWrite;
+
+
+	assign pcWrite = ((IDEX_outBranch&&zero)==1)?1:0;
+	assign npc = IDEX_outPC + {extDataOut[29:0], 2'd0};
 //PC实例化
-	PC U_PC(.clk(clk), .rst(rst), .PCWr(pcWrite), .NPC(extDataOut), .PC(pcOut));
+	PC U_PC(.clk(clk), .rst(rst), .PCWr(pcWrite), .NPC(npc), .PC(pcOut), .JUMP(jump), .JUMPAdr(jumpAdr));
 
-	assign imAdr = pcOut[11:0];
+	assign imAdr = pcOut[13:2];
 //im指令寄存器实例化
 	im_4k U_im(.addr(imAdr), .dout(opCode));
 
-	assign op = opCode[31:26];
-	assign funct = opCode[5:0];
-	assign rfReadAdr1 = opCode[25:21];
-	assign rfReadAdr2 = opCode[20:16];
-	assign rfWriteAdr = (RegDst==1)?opCode[20:16]:opCode[15:11];
+	assign op = IFID_outOpCode[31:26];
+	assign funct = IFID_outOpCode[5:0];
+	assign jumpAdr = IFID_outOpCode[25:0];
+	assign rfReadAdr1 = IFID_outOpCode[25:21];
+	assign rfReadAdr2 = IFID_outOpCode[20:16];
+	assign rfWriteAdr = (IDEX_outRegDst==0)?IDEX_outRt:IDEX_outRd;
 
-	assign extDataIn = opCode[15:0];
+	assign rfReadEn = (op == 15)?0:1;
+	assign rfDataIn = (MEMWB_outMemtoReg==1)?MEMWB_outMemReadData:MEMWB_outALUResult;
+	assign extDataIn = IFID_outOpCode[15:0];
 //RF寄存器堆实例化
-	RF U_RF(.A1(rfReadAdr1), .A2(rfReadAdr2), .A3(rfWriteAdr), .WD(rfDataIn)
-			, .clk(clk), .RFWr(RegWriteEn), .RD1(rfDataOut1), .RD2(rfDataOut2));
+	RF U_RF(.A1(rfReadAdr1), .A2(rfReadAdr2), .A3(rfWriteAdr), .WD(MEMWB_outRegWriteAdr)
+			, .clk(clk), .RFWr(MEMWB_outRegWrite), .RD1(rfDataOut1), .RD2(rfDataOut2), .ReadEnable(rfReadEn));
 
 //Ctrl控制器实例化
 	Ctrl U_Ctrl(.jump(jump),.RegDst(RegDst),.Branch(Branch),.MemR(MemR),.Mem2R(Mem2R)
@@ -70,12 +116,50 @@ module mips( clk, rst );
 //EXT扩展器实例化
 	EXT U_EXT(.Imm16(extDataIn), .EXTOp(ExtOp), .Imm32(extDataOut));
 
-	assign aluDataIn2 = (Alusrc==1)?extDataOut:rfDataOut2;
+	assign aluDataIn2 = (IDEX_outALUSrc==1)?IDEX_outImm32:IDEX_outReadData2;
 //alu实例化
-	alu U_alu(.A(rfDataOut1), .B(aluDataIn2), .ALUOp(Aluctrl), .C(aluDataOut), .Zero(zero));
+	alu U_alu(.A(IDEX_outReadData1), .B(aluDataIn2), .ALUOp(IDEX_outALUCtrl), .C(aluDataOut), .Zero(zero));
 
-	assign dmDataAdr = aluDataOut[11:0];
+	assign dmDataAdr = EXMEM_outALUResult[11:2];
 //dm实例化
-	dm_4k U_dm(.addr(dmDataAdr), .din(rfDataOut2), .DMWr(MemWrite), .clk(clk), .dout(dmDataOut));
+	dm_4k U_dm(.addr(dmDataAdr), .din(EXMEM_outRtData), .DMWr(EXMEM_outMemWrite), .clk(clk), .dout(dmDataOut));
+
+
+//*****************************************************//
+
+
+
+//IF_ID实例化
+	IF_ID U_IF_ID(.clk(clk), .rst(rst), .IFID_InPC(pcOut), .IFID_InOpCode(opCode), .IFID_OutPC(IFID_outPC), .IFID_OutOpCode(IFID_outOpCode) ,.IFID_WriteEn(1));
+
+//ID_EX实例化
+	ID_EX U_ID_EX(.clk(clk), .rst(rst), .IDEX_InPC(IFID_outPC), .IDEX_InReadData1(rfDataOut1), .IDEX_InReadData2(rfDataOut2), .IDEX_InImm32(extDataOut), .IDEX_InRt(rfReadAdr2), .IDEX_InRd(IFID_outOpCode[15:11]), 
+					.IDEX_InALUSrc(Alusrc), .IDEX_InALUCtrl(Aluctrl), .IDEX_InRegDst(RegDst), .IDEX_InJump(jump), 
+					.IDEX_InBranch(Branch), .IDEX_InMemWrite(MemWrite), .IDEX_InMemRead(MemR), 
+					.IDEX_InMemtoReg(Mem2R), .IDEX_InRegWrite(RegWriteEn), 
+					.IDEX_OutPC(IDEX_outPC), .IDEX_OutReadData1(IDEX_outReadData1), .IDEX_OutReadData2(IDEX_outReadData2), .IDEX_OutImm32(IDEX_outImm32), .IDEX_OutRt(IDEX_outRt), .IDEX_OutRd(IDEX_outRd), 
+					.IDEX_OutALUSrc(IDEX_outALUSrc), .IDEX_OutALUCtrl(IDEX_outALUCtrl), .IDEX_OutRegDst(IDEX_outRegDst), .IDEX_OutJump(IDEX_outJump), 
+					.IDEX_OutBranch(IDEX_outBranch), .IDEX_OutMemWrite(IDEX_outMemWrite), .IDEX_OutMemRead(IDEX_outMemRead), 
+					.IDEX_OutMemtoReg(IDEX_outMemtoReg), .IDEX_OutRegWrite(IDEX_outRegWrite), 
+					.IDEX_WriteEn(1) );
+
+//EX_MEM实例化
+	EX_MEM U_EX_MEM(.clk(clk), .rst(rst), .EXMEM_InALUResult(aluDataOut), .EXMEM_InRtData(IDEX_outReadData2), .EXMEM_InRegWriteAdr(rfWriteAdr), 
+					.EXMEM_InMemWrite(IDEX_outMemWrite), .EXMEM_InMemRead(IDEX_outMemRead), 
+					.EXMEM_InMemtoReg(IDEX_outMemtoReg), .EXMEM_InRegWrite(IDEX_outRegWrite), 
+					.EXMEM_OutALUResult(EXMEM_outALUResult), .EXMEM_OutRtData(EXMEM_outRtData), .EXMEM_OutRegWriteAdr(EXMEM_outRegWriteAdr), 
+					.EXMEM_OutMemWrite(EXMEM_outMemWrite), .EXMEM_OutMemRead(EXMEM_outMemRead), 
+					.EXMEM_OutMemtoReg(EXMEM_outMemtoReg), .EXMEM_OutRegWrite(EXMEM_outRegWrite), 
+					.EXMEM_WriteEn(1) );
+
+//MEM_WB实例化
+	MEM_WB U_MEM_WB(.clk(clk), .rst(rst), .MEMWB_InMemReadData(dmDataOut), .MEMWB_InALUResult(EXMEM_outALUResult), .MEMWB_InRegWriteAdr(EXMEM_outRegWriteAdr), 
+					.MEMWB_InMemtoReg(EXMEM_outMemtoReg), .MEMWB_InRegWrite(EXMEM_outRegWrite), 
+					.MEMWB_OutMemReadData(MEMWB_outMemReadData), .MEMWB_OutALUResult(MEMWB_outALUResult), .MEMWB_OutRegWriteAdr(MEMWB_outRegWriteAdr), 
+					.MEMWB_OutMemtoReg(MEMWB_outMemtoReg), .MEMWB_OutRegWrite(MEMWB_outRegWrite), 
+					.MEMWB_WriteEn(1) );
+
+
+
 
 endmodule

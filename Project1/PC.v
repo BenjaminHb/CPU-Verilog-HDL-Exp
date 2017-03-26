@@ -1,9 +1,11 @@
-module PC( clk, rst, PCWr, NPC, PC );
+module PC( clk, rst, PCWr, NPC, PC, JUMP ,JUMPAdr);
 
 	input				clk;
 	input				rst;
 	input				PCWr;
 	input [31:0]		NPC;
+	input				JUMP;
+	input [25:0]		JUMPAdr;
 
 	output reg [31:0]	PC;
 
@@ -13,12 +15,15 @@ module PC( clk, rst, PCWr, NPC, PC );
 		if ( rst ) 
 			PC <= 32'h0000_3000;
 		PC = PC + 4;
-		if ( PCWr )
+		if ( PCWr&&JUMP )		//beq
 			begin
-				temp = {NPC[29:0], 2'd0};
-				PC = PC + temp;
+				PC = NPC;
 			end
-
+		if ( !JUMP&&!PCWr )		//j
+			begin
+				temp = {PC[31:28], JUMPAdr[25:0], 2'd0};
+				PC = temp;
+			end
 	end // end always
 
 endmodule

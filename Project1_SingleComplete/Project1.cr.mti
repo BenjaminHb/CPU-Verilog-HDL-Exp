@@ -1,0 +1,100 @@
+{C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/RF.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/RF.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Ctrl.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Ctrl.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Ctrl
+
+Top level modules:
+	Ctrl
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_4k
+
+Top level modules:
+	im_4k
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/instruction_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/instruction_def.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/ctrl_encode_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/ctrl_encode_def.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_4k
+
+Top level modules:
+	dm_4k
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux2
+	mux4
+	mux8
+	mux16
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IR.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IR.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IR
+
+Top level modules:
+	IR
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/global_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/global_def.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}}

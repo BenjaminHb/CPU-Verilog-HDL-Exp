@@ -1,0 +1,92 @@
+module EX_MEM (clk, rst, EXMEM_InProPC, EXMEM_InALUResult, EXMEM_InALUZero, EXMEM_InRtData, EXMEM_InRegWriteAdr, 
+				EXMEM_InBranch, EXMEM_InMemWrite, EXMEM_InMemRead, 
+				EXMEM_InMemtoReg, EXMEM_InRegWrite, 
+				EXMEM_OutProPC, EXMEM_OutALUResult, EXMEM_OutALUZero, EXMEM_OutRtData, EXMEM_OutRegWriteAdr, 
+				EXMEM_OutBranch, EXMEM_OutMemWrite, EXMEM_OutMemRead, 
+				EXMEM_OutMemtoReg, EXMEM_OutRegWrite, 
+				EXMEM_WriteEn );
+
+//input
+	input				clk;
+	input				rst;
+	input [31:0]		EXMEM_InProPC;
+	input [31:0]		EXMEM_InALUResult;
+	input				EXMEM_InALUZero;
+	input [31:0]		EXMEM_InRtData;
+	input [4:0]			EXMEM_InRegWriteAdr;
+
+////EX_MEX
+	input				EXMEM_InBranch;			//Branch
+	input				EXMEM_InMemWrite;		//MemWrite
+	input				EXMEM_InMemRead;		//MemRead
+
+////MEM_WB
+	input				EXMEM_InMemtoReg;		//MemtoReg
+	input				EXMEM_InRegWrite;		//RegWrite
+
+	input				EXMEM_WriteEn;
+
+//output
+	output reg [31:0]	EXMEM_OutProPC;
+	output reg [31:0]	EXMEM_OutALUResult;
+	output reg			EXMEM_OutALUZero;
+	output reg [31:0]	EXMEM_OutRtData;
+	output reg [4:0]	EXMEM_OutRegWriteAdr;
+
+////EX_MEX
+	output reg			EXMEM_OutBranch;		//Branch
+	output reg			EXMEM_OutMemWrite;		//MemWrite
+	output reg			EXMEM_OutMemRead;		//MemRead
+
+////MEM_WB
+	output reg			EXMEM_OutMemtoReg;		//MemtoReg
+	output reg			EXMEM_OutRegWrite;		//RegWrite
+
+	reg [106:0]			EXMEM_Reg;
+
+	initial begin
+		EXMEM_Reg = 107'd0;
+	end
+
+	always @(posedge clk or posedge rst) begin
+		if ( rst ) begin
+			EXMEM_Reg = 107'd0;
+			EXMEM_OutProPC = 32'd0;
+			EXMEM_OutALUResult = 32'd0;
+			EXMEM_OutALUZero = 1'd0;
+			EXMEM_OutRtData = 32'd0;
+			EXMEM_OutRegWriteAdr = 5'd0;
+			EXMEM_OutBranch = 1'd0;
+			EXMEM_OutMemWrite = 1'd0;
+			EXMEM_OutMemRead = 1'd0;
+			EXMEM_OutMemtoReg = 1'd0;
+			EXMEM_OutRegWrite = 1'd0;
+		end	// end if
+		else begin
+			if ( EXMEM_WriteEn ) begin
+				EXMEM_Reg[101:70] = EXMEM_InProPC;
+				EXMEM_Reg[69:38] = EXMEM_InALUResult;
+				EXMEM_Reg[37] = EXMEM_InALUZero;
+				EXMEM_Reg[36:5] = EXMEM_InRtData;
+				EXMEM_Reg[4:0] = EXMEM_InRegWriteAdr;
+				EXMEM_Reg[102] = EXMEM_InBranch;
+				EXMEM_Reg[103] = EXMEM_InMemWrite;
+				EXMEM_Reg[104] = EXMEM_InMemRead;
+				EXMEM_Reg[105] = EXMEM_InMemtoReg;
+				EXMEM_Reg[106] = EXMEM_InRegWrite;
+			end	// end else if
+
+			EXMEM_OutProPC = EXMEM_Reg[101:70];
+			EXMEM_OutALUResult = EXMEM_Reg[69:38];
+			EXMEM_OutALUZero = EXMEM_Reg[37];
+			EXMEM_OutRtData = EXMEM_Reg[36:5];
+			EXMEM_OutRegWriteAdr = EXMEM_Reg[4:0];
+			EXMEM_OutBranch = EXMEM_Reg[102];
+			EXMEM_OutMemWrite = EXMEM_Reg[103];
+			EXMEM_OutMemRead = EXMEM_Reg[104];
+			EXMEM_OutMemtoReg = EXMEM_Reg[105];
+			EXMEM_OutRegWrite = EXMEM_Reg[106];
+		end	// end else
+	end	// end always
+
+endmodule
