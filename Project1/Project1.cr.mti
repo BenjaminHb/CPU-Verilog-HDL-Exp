@@ -1,62 +1,4 @@
-{F:\CPU Verilog HDL Exp\Project1\EX_MEM.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/EX_MEM.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module EX_MEM
-
-Top level modules:
-	EX_MEM
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\PC.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/PC.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module PC
-
-Top level modules:
-	PC
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\mips_tb.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/mips_tb.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module mips_tb
-
-Top level modules:
-	mips_tb
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\global_def.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/global_def.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\RF.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/RF.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module RF
-
-Top level modules:
-	RF
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\instruction_def.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/instruction_def.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\ctrl_encode_def.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/ctrl_encode_def.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\ID_EX.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/ID_EX.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module ID_EX
-
-Top level modules:
-	ID_EX
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\EXT.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/EXT.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module EXT
-
-Top level modules:
-	EXT
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\alu.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/alu.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module alu
-
-Top level modules:
-	alu
-
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\mux.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/mux.v}
+{C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\mux.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mux.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module mux2
 -- Compiling module mux4
@@ -69,53 +11,125 @@ Top level modules:
 	mux8
 	mux16
 
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\IF_ID.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/IF_ID.v}
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\alu.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/alu.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module IF_ID
+-- Compiling module alu
 
 Top level modules:
-	IF_ID
+	alu
 
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\flopr.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/flopr.v}
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\PC.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/PC.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\flopr.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/flopr.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module flopr
 
 Top level modules:
 	flopr
 
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\Ctrl.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/Ctrl.v}
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\EX_MEM.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EX_MEM.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\IF_ID.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/IF_ID.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Hazard.v} {1 {vlog -work work -vopt {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\Hazard.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Hazard
+
+Top level modules:
+	Hazard
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\global_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/global_def.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\RF.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/RF.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\Ctrl.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Ctrl.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module Ctrl
 
 Top level modules:
 	Ctrl
 
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\im.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/im.v}
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\im.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/im.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module im_4k
 
 Top level modules:
 	im_4k
 
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\MEM_WB.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/MEM_WB.v}
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\mips_tb.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips_tb.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Forward.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/Forward.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Forward
+
+Top level modules:
+	Forward
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\MEM_WB.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/MEM_WB.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module MEM_WB
 
 Top level modules:
 	MEM_WB
 
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\mips.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/mips.v}
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\instruction_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/instruction_def.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module mips
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\ctrl_encode_def.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/ctrl_encode_def.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\ID_EX.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/ID_EX.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ID_EX
 
 Top level modules:
-	mips
+	ID_EX
 
-} {} {}} {F:\CPU Verilog HDL Exp\Project1\dm.v} {1 {vlog -work work -vopt {F:/CPU Verilog HDL Exp/Project1/dm.v}
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\dm.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/dm.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module dm_4k
 
 Top level modules:
 	dm_4k
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\EXT.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/EXT.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} {C:\Users\aaaa\Desktop\CPU Verilog HDL Exp\Project1\mips.v} {1 {vlog -work work -vopt {C:/Users/aaaa/Desktop/CPU Verilog HDL Exp/Project1/mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
 
 } {} {}}
