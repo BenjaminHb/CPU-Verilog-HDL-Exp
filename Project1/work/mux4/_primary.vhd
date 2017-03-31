@@ -2,7 +2,7 @@ library verilog;
 use verilog.vl_types.all;
 entity mux4 is
     generic(
-        WIDTH           : integer := 32
+        WIDTH           : integer := 8
     );
     port(
         d0              : in     vl_logic_vector;

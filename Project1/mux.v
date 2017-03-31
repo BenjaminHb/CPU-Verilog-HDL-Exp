@@ -11,7 +11,7 @@ module mux2 #(parameter WIDTH = 8) (d0, d1, s, y);
 endmodule
 
 // mux4
-module mux4 #(parameter WIDTH = 32) (d0, d1, d2, d3, s, y);
+module mux4 #(parameter WIDTH = 8) (d0, d1, d2, d3, s, y);
 
 	input [WIDTH-1:0]	d0, d1, d2, d3;
 	input [1:0]			s;

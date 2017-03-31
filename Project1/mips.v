@@ -52,13 +52,14 @@ module mips( clk, rst );
 	wire [31:0]	mux4_2_out;	//mux4_2.y
 
 //Forward
-	wire [1:0]	forwardA;	//Forward.ForwardA
-	wire [1:0]	forwardB;	//Forward.ForwardB
+	reg [1:0]	ForwardA;	//ForwardA
+	reg [1:0]	ForwardB;	//ForwardB
 
 //Hazard
-	wire		IDEX_flush;	//Hazard.IDEX_Flush
-	wire		IFID_write;	//Hazard.IFID_Write
-	wire		PC_write;	//Hazard.PC_Write
+	reg		IDEX_Flush;		//IDEX_Flush
+	reg		IFID_Write;		//IFID_Write
+	reg		PC_Write;		//PC_Write
+	reg		IFID_BeqFlush;	//IFID_BeqFlush
 
 //IF_ID
 	wire [31:0]	IFID_outOpCode;
@@ -101,7 +102,7 @@ module mips( clk, rst );
 	assign pcWrite = ((IDEX_outBranch&&zero)==1)?1:0;
 	assign npc = IDEX_outPC + {IDEX_outImm32[29:0], 2'd0};
 //PC实例化
-	PC U_PC(.clk(clk), .rst(rst), .PCWr(pcWrite), .NPC(npc), .PC(pcOut), .JUMP(jump), .JUMPAdr(jumpAdr), .PCWriteEn(PC_write));
+	PC U_PC(.clk(clk), .rst(rst), .PCWr(pcWrite), .NPC(npc), .PC(pcOut), .JUMP(jump), .JUMPAdr(jumpAdr), .PCWriteEn(PC_Write));
 
 	assign imAdr = pcOut[13:2];
 //im指令寄存器实例化
@@ -117,6 +118,8 @@ module mips( clk, rst );
 	assign rfReadEn = (op == 15)?0:1;
 	assign rfDataIn = (MEMWB_outMemtoReg==1)?MEMWB_outMemReadData:MEMWB_outALUResult;
 	assign extDataIn = IFID_outOpCode[15:0];
+
+
 //RF寄存器堆实例化
 	RF U_RF(.A1(rfReadAdr1), .A2(rfReadAdr2), .A3(MEMWB_outRegWriteAdr), .WD(rfDataIn)
 			, .clk(clk), .RFWr(MEMWB_outRegWrite), .RD1(rfDataOut1), .RD2(rfDataOut2), .ReadEnable(rfReadEn));
@@ -141,27 +144,58 @@ module mips( clk, rst );
 //*****************************************************//
 
 //mux4_1实例化
-	mux4 U_mux4_1(.d0(IDEX_outReadData1), .d1(rfDataIn), .d2(EXMEM_outALUResult), .s(forwardA), .y(mux4_1_out));
+	mux4 #(.WIDTH(32)) U_mux4_1 (.d0(IDEX_outReadData1), .d1(rfDataIn), .d2(EXMEM_outALUResult), .s(ForwardA), .y(mux4_1_out));
 
 //mux4_2实例化
-	mux4 U_mux4_2(.d0(IDEX_outReadData2), .d1(rfDataIn), .d2(EXMEM_outALUResult), .s(forwardB), .y(mux4_2_out));
+	mux4 #(.WIDTH(32)) U_mux4_2 (.d0(IDEX_outReadData2), .d1(rfDataIn), .d2(EXMEM_outALUResult), .s(ForwardB), .y(mux4_2_out));
 
-//Forward实例化
-	Forward U_Forward(.clk(clk), .rst(rst), .IDEX_RegRs(IDEX_outRs), .IDEX_RegRt(IDEX_outRt), .EXMEM_RegRd(EXMEM_outRegWriteAdr), .EXMEM_RegWrite(EXMEM_outRegWrite), .MEMWB_RegRd(MEMWB_outRegWriteAdr), .MEMWB_RegWrite(MEMWB_outRegWrite), 
-						.ForwardA(forwardA), .ForwardB(forwardB) );
+//Forward Hazard
+	initial begin
+		ForwardA = 2'd0;
+		ForwardB = 2'd0;
+		IDEX_Flush = 0;
+		IFID_Write = 1;
+		PC_Write = 1;
+		IFID_BeqFlush = 0;
+	end
 
-//Hazard实例化
-	Hazard U_Hazard(.clk(clk), .rst(rst), .IDEX_MemRead(IDEX_outMemRead), .IDEX_RegRt(IDEX_outRt), .IFID_RegRs(rfReadAdr1), .IFID_RegRt(rfReadAdr2), 
-				.IDEX_Flush(IDEX_flush), .IFID_Write(IFID_write), .PC_Write(PC_write) );
+	always @(posedge clk or posedge rst) begin
+		if (IDEX_outRegWrite && (rfWriteAdr != 0 ) && (rfWriteAdr == rfReadAdr1))
+			ForwardA = 10;
+		else if (EXMEM_outRegWrite && (EXMEM_outRegWriteAdr != 0 ) && /*!(IDEX_outRegWrite && (rfWriteAdr != 0) && (rfWriteAdr != rfReadAdr1)) &&*/ (EXMEM_outRegWriteAdr == rfReadAdr1))
+			ForwardA = 01;
+		else
+			ForwardA = 00;
 
+		if (IDEX_outRegWrite && (rfWriteAdr != 0 ) && (rfWriteAdr == rfReadAdr2))
+			ForwardB = 10;
+		else if (EXMEM_outRegWrite && (EXMEM_outRegWriteAdr != 0 ) && /*!(IDEX_outRegWrite && (rfWriteAdr != 0) && (rfWriteAdr != rfReadAdr2)) &&*/ (EXMEM_outRegWriteAdr == rfReadAdr2))
+			ForwardB = 01;
+		else
+			ForwardB = 00;
 
+		if ( IDEX_outBranch== 1)
+			IFID_BeqFlush = 1;
+		else
+			IFID_BeqFlush = 0;
 
+		if ((IDEX_outMemRead && ((IDEX_outRt == rfReadAdr1) || (IDEX_outRt == rfReadAdr2)))||opCode[31:26] == 2/*||Branch&&(rfDataOut1==rfDataOut2)*/) begin
+			IDEX_Flush = 1;
+			IFID_Write = 0;
+			PC_Write = 0;
+		end
+		else begin
+			IDEX_Flush = 0;
+			IFID_Write = 1;
+			PC_Write = 1;
+		end // end else
 
+	end // end always
 
 //*****************************************************//
 
 //IF_ID实例化
-	IF_ID U_IF_ID(.clk(clk), .rst(rst), .IFID_InPC(pcOut), .IFID_InOpCode(opCode), .IFID_OutPC(IFID_outPC), .IFID_OutOpCode(IFID_outOpCode) ,.IFID_WriteEn(IFID_write));
+	IF_ID U_IF_ID(.clk(clk), .rst(rst), .IFID_InPC(pcOut), .IFID_InOpCode(opCode), .IFID_OutPC(IFID_outPC), .IFID_OutOpCode(IFID_outOpCode) ,.IFID_WriteEn(IFID_Write), .IFID_BeqFlush(IFID_BeqFlush) );
 
 //ID_EX实例化
 	ID_EX U_ID_EX(.clk(clk), .rst(rst), .IDEX_InPC(IFID_outPC), .IDEX_InReadData1(rfDataOut1), .IDEX_InReadData2(rfDataOut2), .IDEX_InImm32(extDataOut), .IDEX_InRs(rfReadAdr1), .IDEX_InRt(rfReadAdr2), .IDEX_InRd(IFID_outOpCode[15:11]), 
@@ -172,7 +206,7 @@ module mips( clk, rst );
 					.IDEX_OutALUSrc(IDEX_outALUSrc), .IDEX_OutALUCtrl(IDEX_outALUCtrl), .IDEX_OutRegDst(IDEX_outRegDst), 
 					.IDEX_OutBranch(IDEX_outBranch), .IDEX_OutMemWrite(IDEX_outMemWrite), .IDEX_OutMemRead(IDEX_outMemRead), 
 					.IDEX_OutMemtoReg(IDEX_outMemtoReg), .IDEX_OutRegWrite(IDEX_outRegWrite), 
-					.IDEX_WriteEn(1), .IDEX_CtrlFlush(IDEX_flush) );
+					.IDEX_WriteEn(1), .IDEX_CtrlFlush(IDEX_Flush) );
 
 //EX_MEM实例化
 	EX_MEM U_EX_MEM(.clk(clk), .rst(rst), .EXMEM_InALUResult(aluDataOut), .EXMEM_InRtData(IDEX_outReadData2), .EXMEM_InRegWriteAdr(rfWriteAdr), 

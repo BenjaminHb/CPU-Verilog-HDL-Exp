@@ -18,7 +18,7 @@ module RF( A1, A2, A3, WD, clk, RFWr, RD1, RD2, ReadEnable );
 			rf[i] = 0;
 	end
 
-	always @(posedge clk) begin
+	always @(*) begin
 		if (RFWr)
 			rf[A3] <= WD;
 		
