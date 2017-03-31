@@ -91,6 +91,10 @@ module mips( clk, rst );
 	wire		EXMEM_outMemtoReg;
 	wire		EXMEM_outRegWrite;
 
+	wire		Dzero;
+
+	assign #(50) Dzero = zero;
+
 //MEM_WB
 	wire [31:0]	MEMWB_outMemReadData;
 	wire [31:0]	MEMWB_outALUResult;
@@ -99,7 +103,8 @@ module mips( clk, rst );
 	wire		MEMWB_outRegWrite;
 
 
-	assign pcWrite = ((IDEX_outBranch&&zero)==1)?1:0;
+
+	assign pcWrite = ((IDEX_outBranch&&Dzero)==1)?1:0;
 	assign npc = IDEX_outPC + {IDEX_outImm32[29:0], 2'd0};
 //PC实例化
 	PC U_PC(.clk(clk), .rst(rst), .PCWr(pcWrite), .NPC(npc), .PC(pcOut), .JUMP(jump), .JUMPAdr(jumpAdr), .PCWriteEn(PC_Write));
@@ -174,7 +179,7 @@ module mips( clk, rst );
 		else
 			ForwardB = 00;
 
-		if ( IDEX_outBranch== 1)
+		if ( pcWrite == 1)
 			IFID_BeqFlush = 1;
 		else
 			IFID_BeqFlush = 0;
