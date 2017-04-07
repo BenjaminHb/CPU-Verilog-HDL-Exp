@@ -105,7 +105,7 @@ module mips( clk, rst );
 
 
 	assign pcWrite = ((IDEX_outBranch&&Dzero)==1)?1:0;
-	assign npc = IDEX_outPC + {IDEX_outImm32[29:0], 2'd0} + 4;
+	assign npc = IDEX_outPC + {IDEX_outImm32[29:0], 2'd0};
 //PC实例化
 	PC U_PC(.clk(clk), .rst(rst), .PCWr(pcWrite), .NPC(npc), .PC(pcOut), .JUMP(jump), .JUMPAdr(jumpAdr), .PCWriteEn(PC_Write));
 
