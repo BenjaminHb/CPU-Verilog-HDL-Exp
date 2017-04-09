@@ -1,0 +1,37 @@
+module IF_ID (clk, rst, IFID_InPC, IFID_InOpCode, IFID_OutPC, IFID_OutOpCode ,IFID_WriteEn );
+
+//input
+	input				clk;
+	input				rst;
+	input [31:0]		IFID_InPC;
+	input [31:0]		IFID_InOpCode;
+	input 				IFID_WriteEn;
+
+//output
+	output reg [31:0]	IFID_OutPC;
+	output reg [31:0]	IFID_OutOpCode;
+
+	reg [63:0]			IFID_Reg;
+
+	initial begin
+		IFID_Reg = 64'd0;
+	end
+
+	always @(posedge clk or posedge rst) begin
+		if ( rst ) begin
+			IFID_Reg = 64'd0;
+			IFID_OutPC = 32'd0;
+			IFID_OutOpCode = 32'd0;
+		end	// end if
+		else begin
+			if ( IFID_WriteEn ) begin
+				IFID_Reg[63:32] = IFID_InPC;
+				IFID_Reg[31:0] = IFID_OutOpCode;
+			end	// end else if
+			
+			IFID_OutPC = IFID_Reg[63:32];
+			IFID_OutOpCode = IFID_Reg[31:0];
+		end	// end else
+	end	// end always
+
+endmodule
