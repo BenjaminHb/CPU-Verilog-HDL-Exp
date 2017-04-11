@@ -95,19 +95,19 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	dm_4k
 
-} {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\EX_MEM.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EX_MEM.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module EX_MEM
-
-Top level modules:
-	EX_MEM
-
 } {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\PC.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/PC.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module PC
 
 Top level modules:
 	PC
+
+} {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\EX_MEM.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EX_MEM.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
 
 } {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\mips_tb.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips_tb.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
@@ -119,17 +119,17 @@ Top level modules:
 } {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\global_def.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/global_def.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 
+} {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\ctrl_encode_def.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/ctrl_encode_def.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\instruction_def.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/instruction_def.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
 } {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\RF.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/RF.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module RF
 
 Top level modules:
 	RF
-
-} {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\instruction_def.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/instruction_def.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
-
-} {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\ctrl_encode_def.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/ctrl_encode_def.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 
 } {} {}}

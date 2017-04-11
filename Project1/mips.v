@@ -214,7 +214,7 @@ module mips( clk, rst );
 					.IDEX_WriteEn(1), .IDEX_CtrlFlush(IDEX_Flush), .IDEX_BeqFlush(IDEX_BeqFlush) );
 
 //EX_MEM实例化
-	EX_MEM U_EX_MEM(.clk(clk), .rst(rst), .EXMEM_InALUResult(aluDataOut), .EXMEM_InRtData(IDEX_outReadData2), .EXMEM_InRegWriteAdr(rfWriteAdr), 
+	EX_MEM U_EX_MEM(.clk(clk), .rst(rst), .EXMEM_InALUResult(aluDataOut), .EXMEM_InRtData(mux4_2_out), .EXMEM_InRegWriteAdr(rfWriteAdr), 
 					.EXMEM_InMemWrite(IDEX_outMemWrite), .EXMEM_InMemRead(IDEX_outMemRead), 
 					.EXMEM_InMemtoReg(IDEX_outMemtoReg), .EXMEM_InRegWrite(IDEX_outRegWrite), 
 					.EXMEM_OutALUResult(EXMEM_outALUResult), .EXMEM_OutRtData(EXMEM_outRtData), .EXMEM_OutRegWriteAdr(EXMEM_outRegWriteAdr), 
