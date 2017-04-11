@@ -59,7 +59,8 @@ module mips( clk, rst );
 	reg		IDEX_Flush;		//IDEX_Flush
 	reg		IFID_Write;		//IFID_Write
 	reg		PC_Write;		//PC_Write
-	wire	IFID_BeqJFlush;	//IFID_BeqJFlush
+	wire	IFID_BeqFlush;	//IFID_BeqFlush
+	wire	IFID_DBeqFlush;
 
 //IF_ID
 	wire [31:0]	IFID_outOpCode;
@@ -91,6 +92,9 @@ module mips( clk, rst );
 	wire		EXMEM_outMemtoReg;
 	wire		EXMEM_outRegWrite;
 
+	wire		Dzero;
+
+	assign #(100) Dzero = zero;
 
 //MEM_WB
 	wire [31:0]	MEMWB_outMemReadData;
@@ -101,8 +105,9 @@ module mips( clk, rst );
 
 
 
-	assign pcWrite = ((IDEX_outBranch&&zero)==1)?1:0;
-	assign IFID_BeqJFlush = (pcWrite || IFID_outOpCode[31:26] == 2)? 1:0;
+	assign pcWrite = ((IDEX_outBranch&&Dzero)==1)?1:0;
+	assign #(100) IFID_DBeqFlush = (pcWrite)? 1:0;
+	assign #(100) IFID_BeqFlush = IFID_DBeqFlush;
 	assign npc = IDEX_outPC + {IDEX_outImm32[29:0], 2'd0} + 4;
 //PC实例化
 	PC U_PC(.clk(clk), .rst(rst), .PCWr(pcWrite), .NPC(npc), .PC(pcOut), .JUMP(jump), .JUMPAdr(jumpAdr), .PCWriteEn(PC_Write));
@@ -159,7 +164,7 @@ module mips( clk, rst );
 		IDEX_Flush = 0;
 		IFID_Write = 1;
 		PC_Write = 1;
-		//IFID_BeqJFlush = 0;
+		//IFID_BeqFlush = 0;
 	end
 
 	always @(posedge clk or posedge rst) begin
@@ -178,11 +183,11 @@ module mips( clk, rst );
 			ForwardB = 00;
 
 		/*if ( pcWrite == 1)
-			IFID_BeqJFlush = 1;
+			IFID_BeqFlush = 1;
 		else
-			IFID_BeqJFlush = 0;*/
+			IFID_BeqFlush = 0;*/
 
-		if ((MemR && ((rfReadAdr2 == opCode[25:21]) || (rfReadAdr2 == opCode[20:16])))/*||opCode[31:26] == 2||Branch&&(rfDataOut1==rfDataOut2)*/) begin
+		if ((IDEX_outMemRead && ((IDEX_outRt == rfReadAdr1) || (IDEX_outRt == rfReadAdr2)))||opCode[31:26] == 2/*||Branch&&(rfDataOut1==rfDataOut2)*/) begin
 			IDEX_Flush = 1;
 			IFID_Write = 0;
 			PC_Write = 0;
@@ -198,7 +203,7 @@ module mips( clk, rst );
 //*****************************************************//
 
 //IF_ID实例化
-	IF_ID U_IF_ID(.clk(clk), .rst(rst), .IFID_InPC(pcOut), .IFID_InOpCode(opCode), .IFID_OutPC(IFID_outPC), .IFID_OutOpCode(IFID_outOpCode) ,.IFID_WriteEn(IFID_Write), .IFID_BeqJFlush(IFID_BeqJFlush) );
+	IF_ID U_IF_ID(.clk(clk), .rst(rst), .IFID_InPC(pcOut), .IFID_InOpCode(opCode), .IFID_OutPC(IFID_outPC), .IFID_OutOpCode(IFID_outOpCode) ,.IFID_WriteEn(IFID_Write), .IFID_BeqFlush(IFID_BeqFlush) );
 
 //ID_EX实例化
 	ID_EX U_ID_EX(.clk(clk), .rst(rst), .IDEX_InPC(IFID_outPC), .IDEX_InReadData1(rfDataOut1), .IDEX_InReadData2(rfDataOut2), .IDEX_InImm32(extDataOut), .IDEX_InRs(rfReadAdr1), .IDEX_InRt(rfReadAdr2), .IDEX_InRd(IFID_outOpCode[15:11]), 

@@ -81,13 +81,6 @@ Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 Top level modules:
 	MEM_WB
 
-} {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\mips.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips.v}
-Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
--- Compiling module mips
-
-Top level modules:
-	mips
-
 } {} {}} {Z:\benjaminzhang On My Mac\Temp\CPU Verilog HDL Exp\Project1\dm.v} {1 {vlog -work work -vopt {Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/dm.v}
 Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
 -- Compiling module dm_4k

@@ -1,4 +1,4 @@
-module IF_ID (clk, rst, IFID_InPC, IFID_InOpCode, IFID_OutPC, IFID_OutOpCode ,IFID_WriteEn, IFID_BeqFlush );
+module IF_ID (clk, rst, IFID_InPC, IFID_InOpCode, IFID_OutPC, IFID_OutOpCode ,IFID_WriteEn, IFID_BeqJFlush );
 
 //input
 	input				clk;
@@ -6,14 +6,14 @@ module IF_ID (clk, rst, IFID_InPC, IFID_InOpCode, IFID_OutPC, IFID_OutOpCode ,IF
 	input [31:0]		IFID_InPC;
 	input [31:0]		IFID_InOpCode;
 	input 				IFID_WriteEn;
-	input				IFID_BeqFlush;
+	input				IFID_BeqJFlush;
 
 //output
 	output reg [31:0]	IFID_OutPC;
 	output reg [31:0]	IFID_OutOpCode;
 
 	always @(posedge clk or posedge rst) begin
-		if ( rst || IFID_BeqFlush) begin
+		if ( rst || IFID_BeqJFlush) begin
 			IFID_OutPC = 32'd0;
 			IFID_OutOpCode = 32'd0;
 		end	// end if

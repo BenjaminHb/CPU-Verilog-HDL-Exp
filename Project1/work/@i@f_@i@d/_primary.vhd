@@ -9,6 +9,6 @@ entity IF_ID is
         IFID_OutPC      : out    vl_logic_vector(31 downto 0);
         IFID_OutOpCode  : out    vl_logic_vector(31 downto 0);
         IFID_WriteEn    : in     vl_logic;
-        IFID_BeqFlush   : in     vl_logic
+        IFID_BeqJFlush  : in     vl_logic
     );
 end IF_ID;
