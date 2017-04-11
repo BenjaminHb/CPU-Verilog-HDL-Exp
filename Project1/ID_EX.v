@@ -6,7 +6,7 @@ module ID_EX (clk, rst, IDEX_InPC, IDEX_InReadData1, IDEX_InReadData2, IDEX_InIm
 				IDEX_OutALUSrc, IDEX_OutALUCtrl, IDEX_OutRegDst, 
 				IDEX_OutBranch, IDEX_OutMemWrite, IDEX_OutMemRead, 
 				IDEX_OutMemtoReg, IDEX_OutRegWrite, 
-				IDEX_WriteEn, IDEX_CtrlFlush );
+				IDEX_WriteEn, IDEX_CtrlFlush, IDEX_BeqFlush );
 
 //input
 	input				clk;
@@ -35,6 +35,7 @@ module ID_EX (clk, rst, IDEX_InPC, IDEX_InReadData1, IDEX_InReadData2, IDEX_InIm
 
 	input				IDEX_CtrlFlush;
 	input				IDEX_WriteEn;
+	input				IDEX_BeqFlush;
 
 //output
 	output reg [31:0]	IDEX_OutPC;
@@ -60,7 +61,7 @@ module ID_EX (clk, rst, IDEX_InPC, IDEX_InReadData1, IDEX_InReadData2, IDEX_InIm
 	output reg			IDEX_OutRegWrite;		//RegWrite
 
 	always @(posedge clk or posedge rst) begin
-		if ( rst ) begin
+		if ( rst || IDEX_BeqFlush ) begin
 			IDEX_OutPC = 32'd0;
 			IDEX_OutReadData1 = 32'd0;
 			IDEX_OutReadData2 = 32'd0;

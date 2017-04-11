@@ -15,12 +15,12 @@ FZ:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/alu.v
 L0 2
 Z1 OE;L;10.1a;51
 Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-!s100 c@oKYhjFh5jRP[P:U^AWf2
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/alu.v|
-!s108 1491883067.394000
-!s107 ctrl_encode_def.v|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/alu.v|
 !i10b 1
 !s85 0
+!s100 c@oKYhjFh5jRP[P:U^AWf2
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/alu.v|
+!s108 1491894554.867000
+!s107 ctrl_encode_def.v|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/alu.v|
 vCtrl
 V`]5;UFPcXOH:<a1J_<XI=3
 r1
@@ -34,12 +34,12 @@ L0 1
 R1
 R2
 n@ctrl
-!s100 DUkTW:Gj4omedCgMO]gUQ1
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Ctrl.v|
-!s108 1491883067.082000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Ctrl.v|
 !i10b 1
 !s85 0
+!s100 DUkTW:Gj4omedCgMO]gUQ1
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Ctrl.v|
+!s108 1491894554.632000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Ctrl.v|
 vdm_4k
 VUid5`LG2P9Rz:8]>cCb8K1
 r1
@@ -52,12 +52,12 @@ FZ:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/dm.v
 L0 1
 R1
 R2
-!s100 <9`U^3Vg=zUL1BS<[X6>?1
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/dm.v|
-!s108 1491883067.691000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/dm.v|
 !i10b 1
 !s85 0
+!s100 <9`U^3Vg=zUL1BS<[X6>?1
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/dm.v|
+!s108 1491894555.116000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/dm.v|
 vEX_MEM
 V?lNLId14WV]Y7ETPenUO[3
 r1
@@ -71,12 +71,12 @@ L0 1
 R1
 R2
 n@e@x_@m@e@m
-!s100 i:o1z9MeHnGJGXM[ahlMR1
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EX_MEM.v|
-!s108 1491883069.160000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EX_MEM.v|
 !i10b 1
 !s85 0
+!s100 i:o1z9MeHnGJGXM[ahlMR1
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EX_MEM.v|
+!s108 1491894556.364000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EX_MEM.v|
 vEXT
 VkP?W4T^9d29_a?HHBFR]61
 r1
@@ -90,12 +90,12 @@ L0 2
 R1
 R2
 n@e@x@t
-!s100 BO_E4U]0ZGBA@I=0:3OmG1
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EXT.v|
-!s108 1491883067.988000
-!s107 ctrl_encode_def.v|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EXT.v|
 !i10b 1
 !s85 0
+!s100 BO_E4U]0ZGBA@I=0:3OmG1
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EXT.v|
+!s108 1491894555.365000
+!s107 ctrl_encode_def.v|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/EXT.v|
 vflopr
 IBd19OYVS0`0KE4HNGH3E_1
 V]P_f@>=6G=?GDdBCzB=NS3
@@ -110,7 +110,7 @@ r1
 R2
 !s100 Dn];Com<4Y`0NlQiJ1dJn0
 !s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/flopr.v|
-!s108 1491883065.613000
+!s108 1491894553.461000
 !s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/flopr.v|
 !i10b 1
 !s85 0
@@ -129,7 +129,7 @@ R2
 n@forward
 !s100 1DEE;V5K91nd^6kOQD8R33
 !s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Forward.v|
-!s108 1491883070.410000
+!s108 1491894557.534000
 !s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Forward.v|
 !i10b 1
 !s85 0
@@ -148,29 +148,29 @@ R2
 n@hazard
 !s100 bjSHle`aQ6lVmeGRDO7QQ3
 !s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Hazard.v|
-!s108 1491883070.722000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Hazard.v|
 !i10b 1
 !s85 0
+!s108 1491894557.753000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/Hazard.v|
 vID_EX
-Vg_o6QQko[;00QZkTB0K:E2
+VfhUWbzH3oG;>PkcWj4V?C2
 r1
 31
-IfV;f]2MhY;zcTc773XeRi3
+IccRM>6o@5f6aocaTCnh9R1
 R3
-w1490930080
+w1491894442
 8Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/ID_EX.v
 FZ:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/ID_EX.v
 L0 1
 R1
 R2
 n@i@d_@e@x
-!s100 :e?3>cWUC2j]cI1KTd>a]2
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/ID_EX.v|
-!s108 1491883069.472000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/ID_EX.v|
 !i10b 1
 !s85 0
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/ID_EX.v|
+!s100 TnPm597f;]a9;3i5QzAGQ0
+!s108 1491894556.598000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/ID_EX.v|
 vIF_ID
 VMj=<c4V_1;inBO5z2EjT]0
 r1
@@ -184,12 +184,12 @@ L0 1
 R1
 R2
 n@i@f_@i@d
-!s100 QShgMNM=dbNjIKj36c9zC2
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/IF_ID.v|
-!s108 1491883069.769000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/IF_ID.v|
 !i10b 1
 !s85 0
+!s100 QShgMNM=dbNjIKj36c9zC2
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/IF_ID.v|
+!s108 1491894556.848000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/IF_ID.v|
 vim_4k
 V_;dULiU1emJRaC9kQHm=<1
 r1
@@ -202,12 +202,12 @@ FZ:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/im.v
 L0 1
 R1
 R2
-!s100 n42e8Z_z@zJoC1Ioh1>g:1
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/im.v|
-!s108 1491883068.284000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/im.v|
 !i10b 1
 !s85 0
+!s100 n42e8Z_z@zJoC1Ioh1>g:1
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/im.v|
+!s108 1491894555.615000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/im.v|
 vIR
 Ie9B@eJ>HW^zGNLUWYlL>j1
 VdoiokPZdC@Pj=oAcaieao3
@@ -228,8 +228,10 @@ n@i@r
 !i10b 1
 !s85 0
 vMEM_WB
+!i10b 1
 VlYkK[o`nV7^dW_6XUZGdn3
 r1
+!s85 0
 31
 Io0L>naIe:UUO>CC;Bn_`i1
 R3
@@ -242,27 +244,25 @@ R2
 n@m@e@m_@w@b
 !s100 RQo:inbWCHei_zg90K`M40
 !s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/MEM_WB.v|
-!s108 1491883070.097000
+!s108 1491894557.160000
 !s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/MEM_WB.v|
-!i10b 1
-!s85 0
 vmips
-!i10b 1
 V^lO[ZOI0I1e8M8GJjI9B:3
 r1
-!s85 0
 31
-IzAh=TI[0^JU;5gPFzTz]S1
+IY2LM;]z@UXPX`08Xm[_BP0
 R3
-w1491883151
+w1491894472
 8Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips.v
 FZ:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips.v
 L0 1
 R1
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips.v|
 R2
-!s100 VAFmfk3158A_Qab>CzCiG3
-!s108 1491883302.208000
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips.v|
+!s100 `8:O160iekmTiYajF?18;1
+!s108 1491894552.946000
 !s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips.v|
 vmips_tb
 VHfL@J;=TiSmbe>@j83EoJ0
@@ -276,12 +276,12 @@ FZ:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips_tb.v
 L0 1
 R1
 R2
-!s100 @S<n:EnM4YMWi1>d`kTGm2
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips_tb.v|
-!s108 1491883065.332000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips_tb.v|
 !i10b 1
 !s85 0
+!s100 @S<n:EnM4YMWi1>d`kTGm2
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips_tb.v|
+!s108 1491894553.227000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mips_tb.v|
 vmux16
 I>6R<CeL[4?KeKYGQVn:F92
 V`6=HBldE>cXC;m]K0;QI>0
@@ -293,7 +293,7 @@ L0 67
 R1
 r1
 31
-Z8 !s108 1491883065.878000
+Z8 !s108 1491894553.711000
 Z9 !s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mux.v|
 Z10 !s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/mux.v|
 R2
@@ -333,9 +333,9 @@ R8
 R9
 R10
 R2
-!s100 EJfC`0]UEML@09VnDeQfH3
 !i10b 1
 !s85 0
+!s100 EJfC`0]UEML@09VnDeQfH3
 vmux8
 IB8Vb5CZPEKh<R_Zg[A5_@0
 VOh>X<_n?620Z_^H7^I9KH2
@@ -367,12 +367,12 @@ L0 1
 R1
 R2
 n@p@c
-!s100 XoGF27EfZ`8bcNGPGiRPg2
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/PC.v|
-!s108 1491883068.581000
-!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/PC.v|
 !i10b 1
 !s85 0
+!s100 XoGF27EfZ`8bcNGPGiRPg2
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/PC.v|
+!s108 1491894555.834000
+!s107 Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/PC.v|
 vPC_EX
 I0L=hz@k[SBKiDLic10M_m0
 V8fT`QFT@DNX<VOo6MI@Zl2
@@ -405,9 +405,9 @@ L0 2
 R1
 R2
 n@r@f
-!s100 ToDzP`b5QDMoI0KaS@=:<1
-!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/RF.v|
-!s108 1491883068.863000
-!s107 global_def.v|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/RF.v|
 !i10b 1
 !s85 0
+!s100 ToDzP`b5QDMoI0KaS@=:<1
+!s90 -reportprogress|300|-work|work|-vopt|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/RF.v|
+!s108 1491894556.099000
+!s107 global_def.v|Z:/benjaminzhang On My Mac/Temp/CPU Verilog HDL Exp/Project1/RF.v|

@@ -60,6 +60,7 @@ module mips( clk, rst );
 	reg		IFID_Write;		//IFID_Write
 	reg		PC_Write;		//PC_Write
 	wire	IFID_BeqJFlush;	//IFID_BeqJFlush
+	wire	IDEX_BeqFlush;	//IDEX_BeqFlush
 
 //IF_ID
 	wire [31:0]	IFID_outOpCode;
@@ -103,6 +104,7 @@ module mips( clk, rst );
 
 	assign pcWrite = ((IDEX_outBranch&&zero)==1)?1:0;
 	assign IFID_BeqJFlush = (pcWrite || IFID_outOpCode[31:26] == 2)? 1:0;
+	assign IDEX_BeqFlush = (pcWrite)? 1:0;
 	assign npc = IDEX_outPC + {IDEX_outImm32[29:0], 2'd0} + 4;
 //PC实例化
 	PC U_PC(.clk(clk), .rst(rst), .PCWr(pcWrite), .NPC(npc), .PC(pcOut), .JUMP(jump), .JUMPAdr(jumpAdr), .PCWriteEn(PC_Write));
@@ -209,7 +211,7 @@ module mips( clk, rst );
 					.IDEX_OutALUSrc(IDEX_outALUSrc), .IDEX_OutALUCtrl(IDEX_outALUCtrl), .IDEX_OutRegDst(IDEX_outRegDst), 
 					.IDEX_OutBranch(IDEX_outBranch), .IDEX_OutMemWrite(IDEX_outMemWrite), .IDEX_OutMemRead(IDEX_outMemRead), 
 					.IDEX_OutMemtoReg(IDEX_outMemtoReg), .IDEX_OutRegWrite(IDEX_outRegWrite), 
-					.IDEX_WriteEn(1), .IDEX_CtrlFlush(IDEX_Flush) );
+					.IDEX_WriteEn(1), .IDEX_CtrlFlush(IDEX_Flush), .IDEX_BeqFlush(IDEX_BeqFlush) );
 
 //EX_MEM实例化
 	EX_MEM U_EX_MEM(.clk(clk), .rst(rst), .EXMEM_InALUResult(aluDataOut), .EXMEM_InRtData(IDEX_outReadData2), .EXMEM_InRegWriteAdr(rfWriteAdr), 

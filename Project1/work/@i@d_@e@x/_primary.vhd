@@ -35,6 +35,7 @@ entity ID_EX is
         IDEX_OutMemtoReg: out    vl_logic;
         IDEX_OutRegWrite: out    vl_logic;
         IDEX_WriteEn    : in     vl_logic;
-        IDEX_CtrlFlush  : in     vl_logic
+        IDEX_CtrlFlush  : in     vl_logic;
+        IDEX_BeqFlush   : in     vl_logic
     );
 end ID_EX;
